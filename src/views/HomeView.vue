@@ -1,24 +1,23 @@
 <template>
   <div class="container-fluid">
+    <ModelS></ModelS>
     <Model3></Model3>
     <ModelX></ModelX>
-    <ModelS></ModelS>
     <ModelY></ModelY>
   </div>
 </template>
 
 <script>
 
-
+import ModelS from './ModelS.vue';
 import Model3 from './Model3.vue';
 import ModelX from './ModelX.vue';
-import ModelS from './ModelS.vue';
 import ModelY from './ModelY.vue';
 
 export default {
   name: 'HomeView',
   components: {
-    Model3, ModelX, ModelS, ModelY
+    ModelS, Model3, ModelX, ModelY
   }
 }
 </script>

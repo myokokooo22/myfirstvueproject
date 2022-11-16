@@ -25,3 +25,26 @@ body{
   
     transform: translate(-20%,-50%);
   }
+
+  .ordernow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
+
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px 40px;
+
+    letter-spacing: 2px;
+
+    transition: all 0.3s ease;
+  }
+
+  .ordernow:hover{
+    background-color: rgba(255,255,255,0.7);
+    color: #333;
+    transform: translate(-50%,-50%) scale(0.9);
+  }

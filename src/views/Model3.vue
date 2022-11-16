@@ -3,6 +3,7 @@
     <div class="container-fluid">
       <div class="banner-imgs">
         <p>{{brandName}}</p>
+        <button type="button" class="ordernow">Order Now</button>
       </div>
       
    </div>
